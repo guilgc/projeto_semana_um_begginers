@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Bolaños</title>
+    <style>
+        * {
+text-decoration: none;
+margin: 0;
+}
+
+#main {
+    background: rgb(16, 97, 20);
+    height: 100%;}
+
+header img {
+    width: 20%;
+    float: left;
+    border-radius: 10px;
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    }
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+navbar {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    }
+navbar a {
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+    color: rgb(255, 238, 0);
+    font-size: 100%;
+font-weight: bold;
+font-family: 'Bungee', cursive;
+width: 150px;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+navbar a:hover {
+    opacity: 0.75;
+}
+
+.foto1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.foto1:hover {
+    opacity: .75;
+}
+
+#Sobre h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-family: 'Bungee', cursive;
+    margin: auto;
+    font-size: 30px;
+}
+#Sobre h2{
+    padding: 5px;
+    font-family: 'Bungee', cursive;
+    margin-left: 75px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+}
+
+span {text-decoration: underline ;}
+
+.subtitulos {
+    padding: 5px;
+    font-family: 'Bungee', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 30px;
+}
+.foto2:hover {
+    opacity: .75;
+}
+.imagem1 {
+    display: block;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.imagem1:hover {
+    opacity: .75;
+}
+
+#Linhadotempo h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+#Linhadotempo p {
+    border-color: rgb(3, 48, 5);
+    border-width:8px;
+    border-style: solid;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 3px;
+    -webkit-margin-before: 5px;
+    -webkit-margin-after: 30px
+}
+
+footer {
+    justify-content: space-between;
+    align-items: center;
+display: flex;
+margin: 0px 20px 0px 0px;
+}
+
+footer a {
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px 20px 20px 20px;
+    color: rgb(255, 238, 0);
+font-size: 100%;
+font-weight: bold;
+font-family: 'Bungee', cursive;
+}
+
+footer a:hover {
+    opacity: 0.75;
+}
+
+.date {
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px 20px 20px 20px;
+    color: rgb(255, 238, 0);
+font-size: 100%;
+font-weight: 100;
+font-family: 'Bungee', cursive;
+}
+    </style>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+
+<body>
+<main id="main">
+<header>
+<div id="cabeçalho">
+    <div>
+        <img onclick="changeImg()" src="imagens/iconedotopo.jpg" alt="chaves desenho animado" width="300px" id="ic">
+    </div>
+    
+<h1 id="title" onclick="changeText()">Roberto Mario Gómez y Bolaños - O Inigualável</h1>
+</div>
+<navbar role="navigation" aria-label="Menu de Navegação">
+    <a aria-label="Ir para a seção sobre" href="#Sobre">Sobre</a>
+    <a aria-label="Ir para a seção imagens" href="#Imagens">Imagens</a>
+    <a aria-label="ir para a seção linha do tempo" href="#Linhadotempo">Linha do Tempo</a>
+</navbar>
+</header>
+
+<section role="main" id="Sobre">
+    <div>
+     <img class="foto1" src="imagens/Roberto_Gomez_Bolaños.jpg" alt="Roberto_Gomez_Bolaños">
+     <h1 class="subtitulos"> Roberto Bolaños </h1>
+     <p>
+Nascido em 21 de fevereiro de 1929, Roberto Mario Gómez y Bolaños foi um artista multifacetado, exercendo desde a década de 1950 diversas funções no mundo artístico. Roberto era ator, diretor, escritor, roteirista, desenhista, cantor, comediante, publicitário, entre outros ramos. Ele é considerado um dos maiores nomes no meio artístico.
+Roberto, na sua adolescência se destacava como um bom pugilista, na Universidade Nacional Autônoma do México, estudou engenharia mecânica. Porém, foi nas artes onde se encontrou de fato. Quando tinha 22 anos, começou a trabalhar numa agência publicitária, escrevendo tirinhas humorísticas, fazendo jingles, cartazes, e acabou se destacando e sendo contratado para ser roteirista de um programa de rádio, que viraria televisivo devido ao grande sucesso. Quando um ator faltou, Roberto substitui ele em cena e desse momento em diante, não parou mais.
+</p>
+<p>
+ Devido a sua qualidade ao escrever e sua baixa estatura, ganhou o apelido de "Chespirito", uma adaptação de "pequeno Shakespeare".
+Com o passar dos anos e o ganho exponencial de reconhecimento no meio, Chespirito ganhou um horário em TV aberta para exibir um conteúdo com total autonomia. Foi nesses horários que os personagens "Chaves" e "Chapolin" ganharam notoriedade. E de tão famosos ficaram os personagens, que ambos ganharam um horário especial para exibição na TV.
+
+     </p>
+     <h2>Chaves</h2>
+     <p>
+Provavelmente o maior personagem de Roberto Bolaños foi o Chaves. Era um menino órfão de 8 anos que se escondia em um barril de madeira e que se divertia com os moradores de uma vila. O barril não era sua moradia (como muitos acreditam), até porque o próprio Chaves disse que era impossível alguém viver em um barril. Chaves era um menino pobre, que vivia com fome, e também era muito sincero e ingênuo. A cada episódio, apesar das dificuldades, Chaves sempre tentava conseguir algo para comer, além de brincar e aprontar várias "peças" com os outros personagens da vila. 
+     </p>
+     <img class="foto2" src="imagens/amigos.jpg" alt="Personagens da serie Chaves">
+     <h2>Chapolin</h2>
+     <p>
+Chapolin ou Chapolin Colorado era um super-herói gafanhoto que não colocava respeito e sempre era ridicularizado por seus inimigos. Chapolin sempre aparecia quando alguém em perigo gritava "E agora, quem poderá me defender?", e então o super-herói aparecia e normalmente de maneira bastante atrapalhada. O nome Chapolin tem no espanhol "chapulin", que significa gafanhoto, e segundo a história, seu pai era entomólogo e então decidiu dar o nome de um inseto à seu filho. 
+<p>
+    A apresentação clássica em espanhol anunciava Chapolin com a seguinte frase: "mais rápido que uma tartaruga, mais forte que um rato, mais nobre que um alface, e seu escudo é um coração. É o Chapolin Colorado!"
+    Apesar dessas humilhantes características, Chapolin tinha alguns superpoderes como: teletransportar-se, respirar no espaço sem precisar de roupa especial, viajar no tempo, saltar grandes distâncias (de ai o gafanhoto), além de usar alguns instrumentos que lhe possibilitava outras façanhas.
+</p> 
+     </p>
+     <img class="foto2" src="imagens/chapolin1.jpg" alt="Personagem serie Chapolin">
+    </div>
+</section>
+
+<section id="Imagens">
+    <h1 class="subtitulos">Mais Imagens</h1>
+    <div id="img-div">
+        <img class="imagem1" src="imagens/presunto.jpg" alt="Chaves">
+        <img class="imagem1" src="imagens/chapolin.jpg" alt="Chapolin">
+        <img class="imagem1" src="imagens/personagens.jpg" alt="Personagens de Roberto Bolaños">
+    </div>
+</section>
+
+<section id="Linhadotempo">
+ <h1 class="subtitulos">Linha do Tempo</h1>
+ <p>
+    <span>Nascido em 21 de fevereiro de 1929</span>, Roberto Mario Gómez y Bolaños é natural da Cidade do México. Durante sua adolescência, Roberto adorava futebol e boxe.
+ </p>
+
+ <p>
+    <span>Em 1950</span>, abandonou o estudo de engenharia mecânica para se dedicar ao ramo artístico. E <span>em 1952</span>, Roberto Bolaños conseguiu uma vaga de redator em uma agência de publicidade e começou a escrever profissionalmente pela primeira vez. Com o seu trabalho sendo exposto, seu reconhecimento foi crescendo exponencial.
+ </p>
+ <p>
+    Ainda na <span>década de 50</span>, foi contratado para ser roteirista de um programa de rádio, que viraria televisivo devido ao grande sucesso. Quando um ator faltou, Roberto substitui ele em cena e desse momento em diante, não parou mais.
+ </p>
+
+ <p>
+ <span>Em 1970</span>, em um programa de duração maior, surge o personagem Chapolin Colorado, um dos mais icônicos de Roberto. <span>E em 1972</span>, Chaves, provavelmente seu maior personagem, aparece. Ambos ganharam um horário independente na TV em <span>1973</span>, devido sua grande aceitação pelo público.
+ </p>
+
+ <p>
+Chapolin e Chaves chegaram ao fim nos <span>anos de 1979 e 1980</span>, respectivamente. E mesmo após o fim das gravações, essas séries ainda são exibidas em muitos países até os dias de hoje.
+ </p>
+
+ <p>
+Bolaños seguiu fazendo filmes, teatros e escrevendo livros, até que <span>em 28 de Novembro de 2014</span>, ele faleceu em Cancún, aos 85 anos.
+ </p>
+
+</section>
+
+<footer>
+     <a href="#">Voltar ao topo</a>
+    <a target="_blank" href="https://pt.wikipedia.org/wiki/Roberto_G%C3%B3mez_Bola%C3%B1os" >Saiba Mais</a>
+
+    <p class="date"></p>
+
+</footer>
+
+</main>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans:wght@300&display=swap');
+    </style>
+
+<script src="script.js"></script>
+<script>
+    document.querySelector('.date').innerHTML = new Date().toLocaleString()
+
+var image = document.querySelector('#ic')
+
+function changeImg(){
+    if(image.src.match('imagens/iconedotopo.jpg')){
+        image.src = 'imagens/chapolindesenho.jpg'
+    }else {
+        image.src = 'imagens/iconedotopo.jpg'
+    }
+}
+
+var texto = document.getElementById('title')
+
+function changeText(){
+    if(texto.innerHTML =  'Roberto Mario Gómez y Bolaños - O Inigualável'){
+        texto.innerHTML =  'Chespirito'
+        texto.style.fontSize = '50px'
+       
+    } else {
+        texto.innerHTML = 'Roberto Mario Gómez y Bolaños - O Inigualável'
+        texto.style.fontSize = '50px'
+}
+}
+</script>
+
+</body>
+
+</html>
